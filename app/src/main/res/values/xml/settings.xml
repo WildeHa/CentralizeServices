@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory >
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="serviceEnableKey"
+            android:title="Service Setting"
+            android:summary="Enable or disable head service" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
